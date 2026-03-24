@@ -8,41 +8,45 @@ export type Role = {
 
 export const profile = {
   name: 'Troy Prince',
-  title: 'Software and AI Engineer',
+  title: 'AI Engineer and Autonomous Agent Builder',
   location: 'New York, New York',
   email: 'troyprince@outlook.com',
   linkedin: 'https://www.linkedin.com/in/troyprince1243',
   intro:
-    'I build software that helps teams move faster, learn continuously, and create better experiences for the people who use their products every day.',
+    'I work at the frontier of AI, building autonomous agents for coding, QA, and business operations that help teams move faster with more leverage.',
   summary: [
-    'I care deeply about learning, collaboration, and impact. Those three threads show up consistently across my work as a software engineer and technical architect guiding digital transformation.',
-    'My background spans front-end engineering, AI-focused problem solving, the Microsoft ecosystem, Salesforce, DevOps, proof-of-concept development, and accessibility. I am most energized when I can translate fast-moving technology into practical, maintainable solutions that improve how a business serves its employees and customers.',
+    'My work sits at the intersection of software engineering, technical architecture, and applied AI. I focus on turning large-model capability into reliable systems that can reason, act, and create value inside real workflows.',
+    'Today, that means building and shaping autonomous agents for coding, QA, and business operations. I care less about AI as a demo and more about AI as an operational advantage: systems that are observable, maintainable, and genuinely useful to the teams depending on them.',
   ],
   principles: [
-    'Learn the platform deeply before reaching for complexity.',
-    'Work shoulder-to-shoulder with teammates and clients.',
-    'Design for maintainability, not just a successful demo.',
+    'Build agent systems that are useful, testable, and trustworthy.',
+    'Stay close to the workflow, not just the model.',
+    'Design for durable operational value, not just a compelling demo.',
   ],
 };
 
 export const highlights = [
-  'Staff Engineer at AI One, solving complex, cutting-edge AI challenges.',
-  'Experience across AI, finance, consulting, and enterprise delivery.',
-  'Grounded in front-end engineering, architecture, accessibility, and DevOps.',
+  'Staff Engineer at AI One, working on cutting-edge AI systems and applied agent workflows.',
+  'Focused on autonomous agents for coding, QA, and business operations.',
+  'Bridges software engineering, architecture, delivery, and operational AI adoption.',
   'University of Notre Dame computer science graduate and former teaching assistant.',
 ];
 
 export const specialties = [
-  'Angular',
-  'JavaScript and TypeScript',
+  'Autonomous agents',
   'AI engineering',
+  'Coding agents',
+  'QA automation',
+  'Business operations AI',
+  'LLM workflows',
   'Technical architecture',
+  'JavaScript and TypeScript',
+  'Angular',
   'Kubernetes',
   'Salesforce',
   'Microsoft stack',
-  'Web accessibility',
   'DevOps',
-  'Proof-of-concept delivery',
+  'Web accessibility',
 ];
 
 export const roles: Role[] = [
@@ -52,7 +56,7 @@ export const roles: Role[] = [
     period: 'Aug 2025 - Present',
     location: 'New York, New York',
     summary:
-      'Solving complex, cutting-edge challenges to enable efficient, accurate, and impactful results from artificial intelligence.',
+      'Building cutting-edge AI systems with an emphasis on autonomous agents, applied reasoning, and workflows that improve engineering, QA, and operational execution.',
   },
   {
     company: 'Adaptive Financial Consulting',
@@ -104,4 +108,4 @@ export const education = {
 };
 
 export const footerBlurb =
-  'This first draft pulls from your LinkedIn export and earlier site assets so the foundation is current, but still easy to refine.';
+  'I am not open to work. This site is here to share what I am building and how I think about AI systems, autonomous agents, and practical operational leverage.';

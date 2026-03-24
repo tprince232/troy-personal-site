@@ -100,7 +100,7 @@ function App() {
               <div>
                 <p className="section-label">Summary</p>
                 <h2 className="section-heading">
-                  A first draft grounded in your latest resume export.
+                  Building practical AI systems at the edge of what agents can do.
                 </h2>
               </div>
             </div>
@@ -115,7 +115,7 @@ function App() {
           <aside className="rounded-[2rem] border border-white/10 bg-[#f3ead8] p-7 text-slate-900 shadow-xl shadow-black/20 sm:p-10">
             <p className="section-label text-slate-600">Specialties</p>
             <h2 className="section-heading text-slate-950">
-              What keeps showing up across the work.
+              The capabilities that keep showing up in the work.
             </h2>
             <div className="mt-6 flex flex-wrap gap-3">
               {specialties.map((specialty) => (
@@ -134,7 +134,7 @@ function App() {
           <article className="rounded-[2rem] border border-white/10 bg-white/6 p-7 shadow-xl shadow-black/20 backdrop-blur sm:p-10">
             <p className="section-label">Experience</p>
             <h2 className="section-heading">
-              Recent chapters and the path that shaped them.
+              Recent chapters shaping how I build with AI.
             </h2>
 
             <div className="mt-8 space-y-5">
@@ -188,9 +188,9 @@ function App() {
             </article>
 
             <article className="rounded-[2rem] border border-white/10 bg-[linear-gradient(135deg,_rgba(245,158,11,0.18),_rgba(59,130,246,0.12))] p-7 shadow-xl shadow-black/20 backdrop-blur sm:p-8">
-              <p className="section-label">Contact</p>
+              <p className="section-label">Notes</p>
               <h2 className="section-heading">
-                Available for ambitious teams building meaningful things.
+                Not open to work. Always building.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-8 text-stone-200/88">
                 {footerBlurb}

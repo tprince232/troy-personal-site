@@ -3,6 +3,7 @@
 ## Project Overview
 
 - Repo: `/Users/troyprince/dev/digital-socialite/personal`
+- GitHub repo: `https://github.com/tprince232/troy-personal-site`
 - Purpose: personal website for Troy Prince
 - Stack: Bun + Vite + React + TypeScript + Tailwind CSS v4 + ESLint + Prettier
 - Toolchain management: `mise`
@@ -35,6 +36,7 @@
 - Format check: `mise exec -- bun run format:check`
 - Build: `mise exec -- bun run build`
 - Deploy: `mise exec -- bun run deploy`
+- GitHub Actions auto-deploys on push to `main`
 
 ## Deployment State
 
