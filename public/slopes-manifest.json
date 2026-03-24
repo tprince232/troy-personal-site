@@ -1,0 +1,29 @@
+{
+  "source": "Slopes data stored in iCloud Drive",
+  "generatedFor": "troy.digitalsocialite.io",
+  "generatedOn": "2026-03-23",
+  "totalUniqueDays": 115,
+  "dateRange": {
+    "start": "2020-01-24",
+    "end": "2026-03-07"
+  },
+  "topResorts": [
+    { "resort": "Telluride Ski Resort", "days": 13 },
+    { "resort": "Jackson Hole Mountain Resort", "days": 11 },
+    { "resort": "Park City", "days": 9 },
+    { "resort": "Killington Resort", "days": 7 },
+    { "resort": "Steamboat Ski Resort", "days": 7 },
+    { "resort": "Aspen Mountain", "days": 7 },
+    { "resort": "Deer Valley Resort", "days": 6 },
+    { "resort": "Aspen Snowmass", "days": 6 },
+    { "resort": "Aspen Highlands", "days": 5 },
+    { "resort": "Whistler Blackcomb", "days": 5 },
+    { "resort": "Chamonix Valley", "days": 5 },
+    { "resort": "Snowbird", "days": 3 }
+  ],
+  "notes": [
+    "This manifest summarizes distinct ski days based on .slopes filenames found in iCloud Drive.",
+    "Duplicate exports with suffixes like '2' or '(1)' were normalized into unique day entries.",
+    "Raw .slopes files are not published by this site."
+  ]
+}
