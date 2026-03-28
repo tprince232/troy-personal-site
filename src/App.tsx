@@ -81,9 +81,9 @@ function HomePage() {
                 <img
                   src={heroImage}
                   alt="Troy seated beside a Weekender calendar"
-                  className="h-full w-full object-cover object-[46%_40%]"
+                  className="h-full w-full object-cover object-top sm:object-[46%_40%]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/55 via-transparent to-white/10" />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/28 via-transparent to-white/6" />
               </div>
 
               <div className="flex items-end p-6 sm:p-8">

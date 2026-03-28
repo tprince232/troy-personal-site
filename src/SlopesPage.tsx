@@ -71,6 +71,7 @@ function SlopesPage() {
                 <a
                   href={skiStats.rawDataHref}
                   className="rounded-full bg-white px-5 py-3 font-semibold text-slate-950 transition hover:bg-stone-100"
+                  style={{ color: '#111827' }}
                 >
                   Raw data manifest
                 </a>
@@ -87,10 +88,10 @@ function SlopesPage() {
               <img
                 src={skiImage}
                 alt="Troy skiing on a bright bluebird day"
-                className="absolute inset-0 h-full w-full object-cover object-[72%_32%]"
+                className="absolute inset-0 h-full w-full object-cover object-top sm:object-[72%_32%]"
               />
-              <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(8,17,30,0.06),_rgba(8,17,30,0.56))]" />
-              <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6 lg:p-8">
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,_rgba(8,17,30,0.02),_rgba(8,17,30,0.28))]" />
+              <div className="absolute inset-x-0 top-0 p-4 sm:top-auto sm:bottom-0 sm:p-6 lg:p-8">
                 <div className="grid max-w-[28rem] grid-cols-2 gap-3">
                   <div className="min-w-0 rounded-3xl border border-white/10 bg-slate-950/55 p-4 backdrop-blur sm:p-5">
                     <p className="text-xs tracking-[0.3em] text-sky-200/60 uppercase">
