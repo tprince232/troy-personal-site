@@ -1,3 +1,5 @@
+import { useLayoutEffect } from 'react';
+
 import skiImage from './assets/images/ski-portrait.jpg';
 import { skiStats } from './content';
 
@@ -10,6 +12,10 @@ function formatMillions(value: number) {
 }
 
 function SlopesPage() {
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, []);
+
   const maxResortVertical = Math.max(
     ...skiStats.topResorts.map((item) => item.verticalFeet ?? 0),
   );

@@ -279,6 +279,19 @@ function App() {
   const [page, setPage] = useState(getCurrentPage);
 
   useEffect(() => {
+    if (!('scrollRestoration' in window.history)) {
+      return;
+    }
+
+    const previousScrollRestoration = window.history.scrollRestoration;
+    window.history.scrollRestoration = 'manual';
+
+    return () => {
+      window.history.scrollRestoration = previousScrollRestoration;
+    };
+  }, []);
+
+  useEffect(() => {
     const handleHashChange = () => {
       setPage(getCurrentPage());
     };
@@ -288,6 +301,10 @@ function App() {
       window.removeEventListener('hashchange', handleHashChange);
     };
   }, []);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [page]);
 
   if (page === 'slopes') {
     return <SlopesPage />;
